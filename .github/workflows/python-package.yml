@@ -2,7 +2,7 @@ name: Run Crawler - Update data
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/1 * * * *'
 
 jobs:
   build:
