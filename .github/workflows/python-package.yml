@@ -28,8 +28,8 @@ jobs:
         python crawler.py
     - name: Commits
       run: |
-        git config --local user.email bitableau01@gmail.com
-        git config --local user.name BItableau
+        git config --local user.email "bitableau01@gmail.com"
+        git config --local user.name "BItableau"
         git add bitcoin_180days.json
         git commit -m "Auto - Update data"
     - name: Push
