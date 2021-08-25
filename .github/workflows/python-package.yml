@@ -1,8 +1,9 @@
 name: Run Crawler - Update data 
 
 on: #[push]
-  schedule: 
-    - cron: '11 5 * * *'
+  workflow_dispatch:
+  #schedule: 
+    #- cron: '11 5 * * *'
 
 jobs:
   build:
