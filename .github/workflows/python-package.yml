@@ -1,8 +1,6 @@
 name: Run Crawler - Update data 
 
-on:
-  schedule:
-    - cron: '20/5 * * * *'
+on: [push]
 
 jobs:
   build:
